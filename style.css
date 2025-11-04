@@ -1,0 +1,131 @@
+img{
+    margin-top: 70px;
+    filter: brightness(0.6);
+
+    position: relative;
+    width: 1490px;
+    height: 100%;
+    z-index: 1;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.encabezado{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+h1{
+    display: flex;
+    gap: 2px;
+}
+.palabra1 {
+    margin-left: 10px;
+    color: #119187;
+}
+.palabra2 {
+    color: #e1a9b1;
+}
+nav ol{
+    list-style: none;
+    margin-right: 300px;
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-50%);
+}
+ol img{
+    display: flex;
+    justify-content: center;
+}
+select{
+    background-color: transparent;
+    z-index: 5;
+    width: 17px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #509296;
+}
+main{
+    position: absolute;
+    z-index: 3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    display: flex;
+    bottom: 90px;
+}
+section :nth-child(1){
+    font-size: 10px;
+    font-style: italic;
+    color: #fefcee;
+}
+section :nth-child(2){
+    font-size: 30px;
+    color: #fefcee;
+}
+
+.parami{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fefcee;
+    background-color: #e8989f;
+    gap: 20px;
+}
+.club{
+    width: 120px;
+    height:40px;
+    color: #fefcee;
+    background-color: #e8989f;
+    border-radius: 20px;
+    }
+.idioma{
+    position: absolute;
+    top: 2px;
+    left: 1350px;
+    width: 105px; 
+    height: 40px;
+    background-color: pink;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+footer{
+    position: absolute;
+    z-index: 4;
+    margin-left: 50px;
+    display: flex;
+    bottom: 5px;
+    gap: 20px;
+    width: 100%;
+    }
+footer nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.navegacion-normal{
+    width: 20px;
+    color: green;
+}
